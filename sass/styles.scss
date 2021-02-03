@@ -1,0 +1,61 @@
+@import "variables";
+
+
+
+body{
+    color:$text-primary;
+    background: $dark;
+}
+body{
+    font-family:sans-serif;
+}
+.navbar{
+    background-color:$text-dark;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.5) ;
+    min-height: 100px;
+}
+
+.nav-link{
+    color:$text-secondary;
+}
+.nav-link:hover{
+    color: black;
+}
+.content-center{
+    margin-top:30px;
+}
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+}
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn-space{  
+    margin-right: 6px;
+} 
+.btn-danger
+    {
+    color:$text-danger;
+    background-color:$danger;
+    }
+.btn-primary{
+    color:$text-secondary;
+    background-color: $primary;
+    }
+.btn-secondary{
+    color:$text-secondary;
+    background-color: $secondary;
+    }
+
+.info{
+    color:$text-info;
+}
+.carousel{
+    margin-top: 10px;
+    text-align:center;
+}
+.carousel-container{
+    margin:0 auto;
+}
